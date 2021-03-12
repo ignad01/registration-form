@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration from</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h3>Register With Us</h3>
+        <form id="form">
+            <span>User</span>
+            <input class="input" type="text" id="user" placeholder="Enter user" name="User">
+            <span id="userSpan" style="color: red; font-size: small;">User must be at least 3 characters <br></span>
+            <span>E-mail Id</span>
+            <input class="input" type="text" id="mail" placeholder="Enter email" name="Email">
+            <span id="emailSpan" style="color: red; font-size: small;">Email is not valid <br></span>
+            <span>Password</span>
+            <input class="input" type="password" id="password" placeholder="Enter password" name="password">
+            <span id="passwordSpan" style="color: red; font-size: small;">Password must be at least 6 characters </span>
+            <span>Confirm Password</span>
+            <input class="input" type="password" id="cnfPassword" placeholder="Enter password again" name="cnfPassword">
+            <span id="cnfSpan" style="color: red; font-size: small;">Password does not match</span>
+            <input class="input" id="submit" type="submit">
+        </form>
+    </div>
+    <script type="text/javaScript" src="script.js" ></script>
+</body>
+</html>
